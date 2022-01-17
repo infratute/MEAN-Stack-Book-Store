@@ -47,26 +47,26 @@ $ ng serve
 With the above 3 commands run from within the client directory, the service should be opened on the http://localhost:4200
 
 •	Anonymous users can 
-  > Login/Register
-  > View all books
-  > View books details
+  > Login/Register, 
+  > View all books, 
+  > View books details, 
   > Leave ratings and comments
   
 •	Authenticated users can
-  > Buy books
-  > Rate books
-  > Comment on books
-  > View user profiles
-  > View purchases history
-  >	Create favorite books list
+  > Buy books, 
+  > Rate books, 
+  > Comment on books, 
+  > View user profiles, 
+  > View purchases history, 
+  >	Create favorite books list, 
   > Can change own avatar
   
 •	Admin users
-  > Add books to the store
-  > Edit books
-  > Delete books
-  > Edit/Delete offensive user comments
-  > Block/Unblock user from commenting
+  > Add books to the store, 
+  > Edit books, 
+  > Delete books, 
+  > Edit/Delete offensive user comments, 
+  > Block/Unblock user from commenting, 
   > Change unappropriate user avatars
 
 We have checked the functionality of the files on the below environment
