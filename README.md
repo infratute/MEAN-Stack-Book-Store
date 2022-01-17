@@ -30,14 +30,18 @@ Make sure the service is active.
 
 Now. 
 $ cd server
+
 $ npm install
+
 $ npm start
 
 With the above 3 commands run from the server directory, we should see that the server is started on port 8000 and the mongodb is connected.
 
 Now.
 $ cd client
+
 $ npm install
+
 $ ng serve 
 
 With the above 3 commands run from within the client directory, the service should be opened on the http://localhost:4200
