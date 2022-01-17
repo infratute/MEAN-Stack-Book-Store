@@ -29,16 +29,16 @@ In case of Linux use # systemctl status mongod.
 Make sure the service is active.
 
 Now. 
-# cd server
-# npm install
-# npm start
+$ cd server
+$ npm install
+$ npm start
 
 With the above 3 commands run from the server directory, we should see that the server is started on port 8000 and the mongodb is connected.
 
 Now.
-# cd client
-# npm install
-# ng serve 
+$ cd client
+$ npm install
+$ ng serve 
 
 With the above 3 commands run from within the client directory, the service should be opened on the http://localhost:4200
 
@@ -47,6 +47,7 @@ With the above 3 commands run from within the client directory, the service shou
   > View all books
   > View books details
   > Leave ratings and comments
+  
 •	Authenticated users can
   > Buy books
   > Rate books
@@ -55,6 +56,7 @@ With the above 3 commands run from within the client directory, the service shou
   > View purchases history
   >	Create favorite books list
   > Can change own avatar
+  
 •	Admin users
   > Add books to the store
   > Edit books
@@ -63,10 +65,6 @@ With the above 3 commands run from within the client directory, the service shou
   > Block/Unblock user from commenting
   > Change unappropriate user avatars
 
-We have checked the functionality of the files
-Angular CLI: 13.1.3
-Node: 14.18.3
-Package Manager: npm 8.3.1
-OS: linux x64
-MongoDB: MongoDB shell version v4.4.11
+We have checked the functionality of the files on the below environment
+Angular CLI: 13.1.3 / Node: 14.18.3 / Package Manager: npm 8.3.1/OS: linux x64 / MongoDB: MongoDB shell version v4.4.11
 
